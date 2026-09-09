@@ -1,0 +1,78 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "/data/data/com.termux/files/home/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#8fbcbb",
+      "2": "#88c0d0",
+      "3": "#81a1c1",
+      "4": "#5e81ac",
+      "5": "#b48ead",
+      "6": "#a3be8c",
+      "7": "#d08770",
+      "8": "#ebcb8b",
+      "9": "#88c0d0"
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#88c0d0",
+        "at": "#4c566a",
+        "host": "#81a1c1"
+      }
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "",
+      "keyColor": "#88c0d0"
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "keyColor": "#81a1c1"
+    },
+    {
+      "type": "gpu",
+      "key": "",
+      "keyColor": "#81a1c1"
+    },
+    {
+      "type": "display",
+      "key": "󰍹",
+      "keyColor": "#a3be8c"
+    },
+    {
+      "type": "memory",
+      "key": "",
+      "keyColor": "#a3be8c",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "swap",
+      "key": "",
+      "keyColor": "#b48ead"
+    },
+    {
+      "type": "disk",
+      "key": "",
+      "keyColor": "#8fbcbb"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
