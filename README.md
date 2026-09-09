@@ -9,7 +9,6 @@ cd Installcustomizeforxfce4/
 ```
 
 ```
-
 chmod +x installforcustomize.sh
 chmod +x installcustomizeationforxfce4.sh
 ```
@@ -17,12 +16,10 @@ chmod +x installcustomizeationforxfce4.sh
 to begin execute files:
 
 ```
-
 sh installforcustomize.sh
 ```
 
 ```
-
 sh installcustomizationforxfce4.sh
 ```
 
