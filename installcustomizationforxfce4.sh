@@ -62,14 +62,6 @@ sleep 1
 
 echo 'export BAT_THEME="Nord"' >>~/.bashrc
 
-echo -e "\e[34mInstalling Vscode Theme...\e[0m"
-
-sleep 1
-
-mkdir -p ~/.vscode-oss/extensions
-
-cp -r files/Vscode/yukina.yukinord-0.0.78-universal/ ~/.vscode-oss/extensions
-
 echo -e "\e[34mInstalling Wallpaper...\e[0m"
 
 sleep 1
