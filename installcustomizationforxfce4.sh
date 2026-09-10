@@ -42,14 +42,6 @@ mkdir -p ~/.config/
 
 cp files/Starship/starship.toml ~/.config/
 
-echo -e "\e[34mInstalling xfce4 Terminal theme...\e[0m"
-
-sleep 1
-
-mkdir -p ~/.local/share/xfce4/terminal/colorschemes
-
-cp files/Xfce4-Terminal/nord.theme ~/.local/share/xfce4/terminal/colorschemes
-
 echo -e "\e[34mInstalling Neovim Theme...\e[0m"
 
 sleep 1
@@ -77,14 +69,6 @@ sleep 1
 mkdir -p ~/.vscode-oss/extensions
 
 cp -r files/Vscode/yukina.yukinord-0.0.78-universal/ ~/.vscode-oss/extensions
-
-echo -e "\e[34mInstalling Firefox Theme...\e[0m"
-
-sleep 1
-
-cd files/Firefox && ./scripts/install.sh
-
-cd .. && cd ..
 
 echo -e "\e[34mInstalling Wallpaper...\e[0m"
 
