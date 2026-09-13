@@ -1,3 +1,5 @@
+clear
+
 echo ""
 echo -e "\e[34mInstalling Package for Customize\e[0m"
 echo ""
