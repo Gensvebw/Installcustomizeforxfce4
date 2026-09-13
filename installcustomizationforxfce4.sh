@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 clear
+sleep 2
 
 echo -e "\e[34mThis Script is Installing Nord Theme\e[0m"
 echo ""
